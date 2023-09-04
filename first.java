@@ -14,6 +14,10 @@ class Animal implements AnimalEat, AnimalTravel {
     public void travel() {
         System.out.println("Animal is traveling");
     }
+
+    public void walk() {
+        System.out.println("Animal is walking");
+    }
 }
 
 public class first {
