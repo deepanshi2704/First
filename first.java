@@ -18,6 +18,10 @@ class Animal implements AnimalEat, AnimalTravel {
     public void walk() {
         System.out.println("Animal is walking");
     }
+
+    public void fly() {
+        System.out.println("Animal is flying");
+    }
 }
 
 public class first {
